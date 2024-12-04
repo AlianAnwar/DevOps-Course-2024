@@ -71,8 +71,8 @@ jobs:
 
       - name: Build and Push Backend Docker Image
         run: |
-          docker build -t ahsan-docker/backend-app ./backend
-          docker push ahsan-docker/backend-app
+          docker build -t alian-docker/backend-app ./backend
+          docker push alian-docker/backend-app
 
       - name: Build and Push Frontend Docker Image
         run: |
