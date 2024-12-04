@@ -1,4 +1,4 @@
-# 🚀 Automating Kubernetes Deployments: CI/CD Pipeline with Jenkins and GitLab on Amazon EKS
+# 🚀 1. Automating Kubernetes Deployments: CI/CD Pipeline with Jenkins and GitLab on Amazon EKS
 
 This guide by Alian Anwar provides a comprehensive walkthrough on setting up a CI/CD pipeline for Kubernetes deployments using Jenkins and GitLab on Amazon EKS. It simplifies the deployment process, ensuring faster and more reliable software delivery.
 
