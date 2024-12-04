@@ -86,10 +86,14 @@ jobs:
 ```
 
 ## Explanation of the Workflow:
-#### Trigger: The workflow is triggered every time I push changes to the main branch.
-#### Checkout Code: The workflow checks out the latest code from the repository.
-#### Build and Push Docker Images: It then builds the Docker images for the backend and frontend, tags them, and pushes them to my Docker Hub account.
-#### Deploy to Kubernetes: Finally, the workflow deploys the updated Docker images to the Kubernetes cluster by applying the deployment YAML files for both backend and frontend.
+#### Trigger: 
+The workflow is triggered every time I push changes to the main branch.
+#### Checkout Code: 
+The workflow checks out the latest code from the repository.
+#### Build and Push Docker Images: 
+It then builds the Docker images for the backend and frontend, tags them, and pushes them to my Docker Hub account.
+#### Deploy to Kubernetes: 
+Finally, the workflow deploys the updated Docker images to the Kubernetes cluster by applying the deployment YAML files for both backend and frontend.
 
 
 With these integrations in place, I have successfully set up a Kyverno policy to enforce resource limits and a GitHub Actions CI/CD pipeline to automate my project’s Kubernetes deployment process. These steps streamline the workflow, ensure resource management, and reduce the potential for errors during deployment.
